@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Portfólio de Sabino Lima — estudante de tecnologia com interesse em desenvolvimento web e Análise e Desenvolvimento de Sistemas.">
+  <title>Sabino Lima | Desenvolvedor em formação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Sabino Lima, início">sabino<span>.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#certificados">Certificados</a>
+      <a href="#projetos">Projetos</a>
+      <a class="nav-contact" href="#contato">Contato <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="inicio">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> EM BUSCA DA PRIMEIRA OPORTUNIDADE</div>
+        <p class="hero-kicker">Olá, meu nome é</p>
+        <h1>Sabino <span>Lima.</span></h1>
+        <h2>Estudante de tecnologia <span class="accent">·</span> Desenvolvimento web</h2>
+        <p class="hero-description">Tenho interesse em criar experiências digitais e transformar ideias em soluções por meio da tecnologia. Atualmente, estou desenvolvendo meus conhecimentos em desenvolvimento web e buscando minha primeira oportunidade na área.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Conheça meus projetos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="button button-ghost" href="#contato">Vamos conversar</a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Paulista / PE</span>
+          <span><i class="fa-regular fa-envelope" aria-hidden="true"></i> Sabinolima1407@gmail.com</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <div class="portrait-glow"></div>
+          <img src="img/eu.jpg" alt="Foto de Sabino Lima" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="portrait-fallback" aria-hidden="true">SL</div>
+        </div>
+        <div class="floating-note note-top"><span class="note-icon"><i class="fa-solid fa-code"></i></span><span><strong>Desenvolvimento</strong><small>em constante evolução</small></span></div>
+        <div class="floating-note note-bottom"><span class="note-icon"><i class="fa-solid fa-graduation-cap"></i></span><span><strong>Aprendizado</strong><small>todos os dias</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#sobre"><span></span> Role para explorar</a>
+    </section>
+
+    <section class="section-shell section-block" id="sobre">
+      <div class="section-heading reveal"><span class="section-index">01 / SOBRE</span><h2>Um pouco <span>sobre mim</span></h2></div>
+      <div class="about-layout">
+        <div class="about-main panel reveal">
+          <p class="about-lead">Tecnologia é onde minha curiosidade encontra espaço para criar.</p>
+          <p>Sou estudante da área de Informática no Senac Paulista e tenho interesse em Análise e Desenvolvimento de Sistemas. Venho praticando desenvolvimento web e explorando ferramentas para criar páginas e interfaces digitais.</p>
+          <p>Quero continuar aprendendo, colaborar com equipes e transformar conhecimento em experiência prática. Estou em busca da minha primeira oportunidade profissional ou de estágio na área de tecnologia.</p>
+        </div>
+        <div class="about-facts reveal">
+          <div class="fact-card"><span class="fact-number">01</span><strong>Formação</strong><p>Estudos na área de Informática · Senac Paulista</p></div>
+          <div class="fact-card"><span class="fact-number">02</span><strong>Interesse</strong><p>Desenvolvimento web e Análise e Desenvolvimento de Sistemas</p></div>
+          <div class="fact-card"><span class="fact-number">03</span><strong>Objetivo</strong><p>Primeira oportunidade em tecnologia</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="habilidades">
+      <div class="section-heading reveal"><span class="section-index">02 / HABILIDADES</span><h2>Tecnologias que <span>estudo</span></h2><p>Ferramentas e conhecimentos que venho desenvolvendo na minha jornada.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-brands fa-html5"></i></div><h3>HTML5</h3><p>Estruturação semântica de páginas web.</p><span class="skill-type">DESENVOLVIMENTO WEB</span></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div><h3>CSS3</h3><p>Estilização, layouts e interfaces responsivas.</p><span class="skill-type">DESENVOLVIMENTO WEB</span></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-brands fa-js"></i></div><h3>JavaScript</h3><p>Interatividade e lógica para aplicações web.</p><span class="skill-type">PROGRAMAÇÃO</span></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-brands fa-react"></i></div><h3>React</h3><p>Estudo de interfaces baseadas em componentes.</p><span class="skill-type">BIBLIOTECA JAVASCRIPT</span></article>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="certificados">
+      <div class="section-heading reveal"><span class="section-index">03 / FORMAÇÃO COMPLEMENTAR</span><h2>Certificados e <span>aprendizados</span></h2><p>Conhecimentos complementares na área de tecnologia.</p></div>
+      <div class="cert-grid">
+        <article class="cert-card reveal"><div class="cert-image"><img src="img/cert1.jpg" alt="Certificado de Fundamentos do Hardware" loading="lazy"></div><div class="cert-info"><span class="cert-label">HARDWARE</span><h3>Fundamentos do Hardware</h3><p>Conhecimentos sobre componentes e funcionamento de computadores.</p></div></article>
+        <article class="cert-card reveal"><div class="cert-image"><img src="img/cert2.jpg" alt="Certificado de Introdução à Cibersegurança" loading="lazy"></div><div class="cert-info"><span class="cert-label">SEGURANÇA</span><h3>Introdução à Cibersegurança</h3><p>Conceitos introdutórios de segurança digital e proteção de dados.</p></div></article>
+        <article class="cert-card reveal"><div class="cert-image"><img src="img/cert3.jpg" alt="Certificado de Defesa de Redes" loading="lazy"></div><div class="cert-info"><span class="cert-label">REDES</span><h3>Defesa de Redes</h3><p>Fundamentos de proteção e segurança em redes de computadores.</p></div></article>
+         <article class="cert-card reveal"><div class="cert-image"><img src="img/cert5.jpg
+          " alt="Certificado de Defesa de Redes" loading="lazy"></div><div class="cert-info"><span class="cert-label">Segurança</span><h3>Segurança</h3><p>Segurança de cibernetica para a segurança digital.</p></div></article>
+        <article class="cert-card reveal"><div class="cert-image"><img src="img/cert4.jpg" alt="Certificado de Robótica e Empreendedorismo" loading="lazy"></div><div class="cert-info"><span class="cert-label">INOVAÇÃO</span><h3>Robótica e Empreendedorismo</h3><p>Contato com tecnologia, raciocínio lógico e visão empreendedora.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="projetos">
+      <div class="section-heading reveal"><span class="section-index">04 / PORTFÓLIO</span><h2>Projetos e <span>atividades</span></h2><p>Alguns trabalhos que fazem parte da minha trajetória de aprendizado.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <a class="project-cover" href="#" aria-label="Adicionar link do projeto de 2024"><img src="img/projeto1.jpg" alt="Imagem do projeto de 2024" loading="lazy"><span class="project-year">2024</span></a>
+          <div class="project-content"><span class="project-category">TRABALHO / ATIVIDADE</span><h3>Projeto 2024</h3><p>Aqui é um Projeto Voltado Aos deficientes visuais.</p><span class="project-link pending">https://canva.link/p75cd79jng7o5xj<i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </article>
+        <article class="project-card reveal">
+          <a class="project-cover" href="#" aria-label="Adicionar link do projeto de 2025"><img src="img/projeto2.jpg" alt="Imagem do projeto de 2025" loading="lazy"><span class="project-year">2025</span></a>
+          <div class="project-content"><span class="project-category">TRABALHO / ATIVIDADE</span><h3>Projeto 2025</h3><p>Reduzir o consumo de energia nas suas casas através de uma aplicação fácil de utilizar.</p><span class="project-link pending">https://canva.link/t47x1ral4p44943<i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </article>
+        <article class="project-card reveal">
+          <a class="project-cover" href="#" aria-label="Adicionar link do projeto de 2026"><img src="img/projeto3.jpg" alt="Imagem do projeto de 2026" loading="lazy"><span class="project-year">2026</span></a>
+          <div class="project-content"><span class="project-category">TRABALHO / ATIVIDADE</span><h3>Projeto 2026</h3><p>Adicione aqui uma breve descrição do objetivo, do que você desenvolveu e do que aprendeu neste trabalho.</p><span class="project-link pending">Link do projeto a adicionar <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </article>
+      </div>
+      <p class="section-footnote"><i class="fa-solid fa-circle-info"></i> Os títulos e descrições dos projetos podem ser personalizados quando você me enviar os links e explicar cada trabalho.</p>
+    </section>
+
+    <section class="section-shell section-block contact-section" id="contato">
+      <div class="section-heading reveal"><span class="section-index">05 / CONTATO</span><h2>Vamos criar algo <span>juntos?</span></h2><p>Estou aberto a oportunidades de estágio, primeiro emprego e conexões na área de tecnologia.</p></div>
+      <div class="contact-layout">
+        <div class="contact-copy panel reveal"><span class="availability"><span class="status-dot"></span> DISPONÍVEL PARA OPORTUNIDADES</span><h3>Entre em contato</h3><p>Você pode me encontrar pelos canais abaixo. Será um prazer conversar sobre tecnologia e oportunidades.</p>
+          <a class="contact-item" href="mailto:Sabinolima1407@gmail.com"><i class="fa-regular fa-envelope"></i><span><small>E-MAIL</small>Sabinolima1407@gmail.com</span></a>
+          <a class="contact-item" href="https://github.com/SidneySaabino" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><span><small>GITHUB</small>github.com/SidneySaabino</span></a>
+          <a class="contact-item" href="https://www.linkedin.com/in/sabino-d-a8a7013aa/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i><span><small>LINKEDIN</small>Meu perfil profissional</span></a>
+        </div>
+        <form class="contact-form panel reveal" id="contact-form">
+          <label for="name">Seu nome</label><input id="name" name="name" type="text" placeholder="Como você se chama?" required>
+          <label for="email">Seu e-mail</label><input id="email" name="email" type="email" placeholder="voce@email.com" required>
+          <label for="message">Mensagem</label><textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+          <button class="button button-primary" type="submit">Preparar mensagem <i class="fa-solid fa-paper-plane"></i></button>
+          <p class="form-note" id="form-note">O botão abrirá seu aplicativo de e-mail com a mensagem preenchida.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#inicio">sabino<span>.</span></a><p>Feito por Sabino Lima · <span id="year"></span></p><a href="#inicio" class="back-top">Voltar ao topo ↑</a></footer>
+  <script src="main.js"></script>
+</body>
+</html>
